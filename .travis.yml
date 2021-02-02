@@ -1,4 +1,3 @@
-language: ruby
+language: Java
 rvm:
  - 2.2
- - jruby
