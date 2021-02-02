@@ -1,3 +1,9 @@
-language: Java
-rvm:
- - 2.2
+language: java
+
+jdk: 
+  - oraclejdk18
+
+script:
+  - java --version
+  - ./mvnw clean install
+  - ./mvnw test
