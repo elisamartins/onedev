@@ -1,9 +1,10 @@
 language: java
 
 jdk: 
-  - oraclejdk18
+  - openjdk8
 
 script:
-  - java --version
-  - ./mvnw clean install
-  - ./mvnw test
+  - mvn clean install
+
+notifications:
+	email: elisa.correia-martins@polymtl.ca
