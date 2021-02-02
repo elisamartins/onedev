@@ -7,4 +7,4 @@ script:
   - mvn clean install
 
 notifications:
-	email: elisa.correia-martins@polymtl.ca
+email: elisa.correia-martins@polymtl.ca
